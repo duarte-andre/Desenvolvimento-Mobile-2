@@ -105,7 +105,7 @@ class _LoginState extends State<Login> {
               ],
             ),
             
-           ElevatedButton(onPressed: _verificarlogin, child: Text("Entrar"))
+           ElevatedButton(onPressed: _verificarlogin, child: Text("Entrar", style: TextStyle(color: Colors.white),))
           ],
         ),
       ),

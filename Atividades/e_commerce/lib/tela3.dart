@@ -82,7 +82,7 @@ class _ProdutosState extends State<Produtos> {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text("${widget.nomeprod} ",style: TextStyle(fontSize: 18),),
+                Text("${widget.nomeprod} ",style: TextStyle(fontSize: 18, color:Colors.white),),
                 Text("Quantidade $cont",style: TextStyle(fontSize: 18),),
                 Text("Valor R\$ ${widget.valorprod} ",style: TextStyle(fontSize: 18),),
                 Row(
@@ -99,7 +99,8 @@ class _ProdutosState extends State<Produtos> {
                         setState(() {
                           cont++;
                         });
-                      }, child: Icon(Icons.add)),)
+                      }, child: Icon(Icons.add, color: Colors.white),
+                    ),)
                     
                   ],
                 ),
@@ -108,9 +109,17 @@ class _ProdutosState extends State<Produtos> {
                   children: [
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: ElevatedButton(onPressed: _calculartotal, child: Text("Calcular")),
+                      child: ElevatedButton(onPressed: _calculartotal, 
+                      child: Text("Calcular",   style: TextStyle(color: Colors.white),),
+                      
+                      
+                      ),
                     ),
-                    ElevatedButton(onPressed: _limpar, child: Text("Esvaziar")),
+                    ElevatedButton(onPressed: _limpar,
+                    child:Text("Esvaziar", style: TextStyle(color: Colors.white),),
+                    
+                    
+                    ),
                   ],
                 ),
                 

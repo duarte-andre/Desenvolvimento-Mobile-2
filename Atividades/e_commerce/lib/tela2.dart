@@ -78,14 +78,14 @@ class _ProdutosState extends State<Produtos> {
                         setState(() {
                           cont++;
                         });
-                      }, child: Icon(Icons.add)),
+                      }, child: Icon(Icons.add, color: Colors.white,)),
                     ),
                      ElevatedButton(onPressed: (){
                       
                       setState(() {
                         cont--;
                       });
-                    }, child: Icon(Icons.restore)),
+                    }, child: Icon(Icons.restore, color: Colors.white,)),
                   ],
                 ),
                 

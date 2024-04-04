@@ -8,11 +8,11 @@ void main() {
         
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: TextButton.styleFrom(
-            backgroundColor: Colors.red[900],
+            backgroundColor: Colors.blue[600],
           ),
         ),
         textSelectionTheme:
-            TextSelectionThemeData(cursorColor: Colors.redAccent),
+            TextSelectionThemeData(cursorColor: Colors.white),
       ),
     
     home:Login() ,
