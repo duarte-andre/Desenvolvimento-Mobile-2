@@ -1,0 +1,34 @@
+{
+  "produtos": [
+    {
+      "id": "0",
+      "nome": "Ipad",
+      "valor": "5000"
+    },
+    {
+      "id": "0",
+      "nome": "Iphone",
+      "valor": "8000"
+    },
+    {
+      "id": "0",
+      "nome": "Notebook",
+      "valor": "5500"
+    },
+    {
+      "id": "0",
+      "nome": "TV",
+      "valor": "4500"
+    },
+    {
+      "id": "8",
+      "nome": "Novo Nome",
+      "valor": "Novo Valor"
+    },
+    {
+      "id": "a420",
+      "nome": "S24",
+      "valor": "8599"
+    }
+  ]
+}
