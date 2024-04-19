@@ -1,0 +1,46 @@
+{
+  "produtos": [
+    {
+      "id": "0",
+      "nome": "Iphone",
+      "valor": "8000",
+      "imagem_url": "https://imgs.search.brave.com/Z6L0NaUv_6NCUI-9APvx2Xwh8s0TyH7AKiq_2kzrgys/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE5/MDQ0Nzg2NC9waG90/by9hcHBsZS1pcGhv/bmUtMTEtcHJvLWdy/YXktc21hcnRwaG9u/ZS5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9ekVUTEplZ3VM/b1RFRkJOS1BsMXZq/UFkxbHZQVzF1TTZH/UHB5aU1TdnNDMD0"
+    },
+    {
+      "id": "0",
+      "nome": "Notebook",
+      "valor": "5500",
+      "imagem_url": "https://imgs.search.brave.com/q54NT0rZRmWeIEVzr9quZ_q1TQYo48Bclp7EUFAExn4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGNkbi5jb20u/YnIvaW1nL2ltZ19w/cm9kLzc0MDgzNi8x/ODBfbm90ZWJvb2tf/ZGVsbF92b3N0cm9f/NTUxMF9jb3JlX2k3/XzExMzkwaF9tZW1v/cmlhXzE2Z2Jfc3Nk/XzUxMmdiX214XzQ1/MF8yZ2JfZmhkXzE1/XzZfd2luZG93c18x/MV9ob21lXzExNTcz/XzFfMDBiNjJiOWMw/MzhjYjZmMjExYjIw/NjIzOGFlYWEwNTMu/anBn"
+    },
+    {
+      "id": "0",
+      "nome": "TV",
+      "valor": "4500",
+      "imagem_url": "https://imgs.search.brave.com/Z5I4d06EWFJYPb-FcMr6lrYrZrM9D4u3nlSivAhBWbM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF84/NTI4MjEtTUxVNzU3/ODY5MTEwOTNfMDQy/MDI0LVcud2VicA"
+    },
+    {
+      "id": "8",
+      "nome": "Novo Nome",
+      "valor": "Novo Valor",
+      "imagem_url": "https://imgs.search.brave.com/Z6L0NaUv_6NCUI-9APvx2Xwh8s0TyH7AKiq_2kzrgys/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE5/MDQ0Nzg2NC9waG90/by9hcHBsZS1pcGhv/bmUtMTEtcHJvLWdy/YXktc21hcnRwaG9u/ZS5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9ekVUTEplZ3VM/b1RFRkJOS1BsMXZq/UFkxbHZQVzF1TTZH/UHB5aU1TdnNDMD0"
+    },
+    {
+      "id": "a420",
+      "nome": "S24",
+      "valor": "8599",
+      "imagem_url": "https://imgs.search.brave.com/6rRXdrLr2lg5QG8O61x7tMaZv0QgfetXZOVK95tRsZQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zMi10/ZWNodHVkby5nbGJp/bWcuY29tL1o4NzdE/dTdWSWZTVHpzQllY/UWlCYURPY1FKbz0v/MHgwOjY0MjF4NDI4/MC85ODR4MC9zbWFy/dC9maWx0ZXJzOnN0/cmlwX2ljYygpL2ku/czMuZ2xiaW1nLmNv/bS92MS9BVVRIXzA4/ZmJmNDhiYzA1MjQ4/Nzc5NDNmZTg2ZTQz/MDg3ZTdhL2ludGVy/bmFsX3Bob3Rvcy9i/cy8yMDI0L0QvRS9V/ZDgxS0hRc0M4MkRQ/YTZpb0lVdy8wMDEt/cHJvZHVjdC1nYWxh/eHktczI0dWx0cmEt/dGl0YW5pdW1ibGFj/ay10aXRhbml1bXll/bGxvdy10aXRhbml1/bXZpb2xldC10aXRh/bml1bWdyYXkuanBn"
+    },
+    {
+      "id": "d2b9",
+      "nome": "ACE NITRO",
+      "valor": "5999",
+      "imagem_url": "https://imgs.search.brave.com/HufCUUKz5Md8hz15ZWEnweZe01etqFUltjW597-GBfc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzUxZVJ6UnpYRGhM/LmpwZw"
+    },
+    {
+      "id": "c330",
+      "nome": "ACE NITRO",
+      "valor": "5999",
+      "imagem_url": "https://imgs.search.brave.com/HufCUUKz5Md8hz15ZWEnweZe01etqFUltjW597-GBfc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzUxZVJ6UnpYRGhM/LmpwZw"
+    }
+  ]
+}
