@@ -8,7 +8,12 @@ void main()async {
   ));
    WidgetsFlutterBinding.ensureInitialized(); // Para garantir que o Flutter esteja inicializado antes de acessar o banco de dados
   await _insertInitialDog(); // Espera a inserção do cachorro inicial antes de construir o widget
+  var Rocky = Dog(id: 5, nome: "Rocky", idade: 5);
+  await updateDog(Rocky);
+
 }
+
+
 // função para inserir dados no banco de dados
 Future<void> _insertInitialDog() async {
   var database = await _initializeDatabase();
@@ -35,6 +40,19 @@ Future<Database> _initializeDatabase() async {
 Future<void> _insertDog(Database database, Dog dog) async {
   await database.insert('dogsa', dog.toMap(),
       conflictAlgorithm: ConflictAlgorithm.replace);
+}
+
+Future<void> _deleteDog(int id) async{
+  final db = await _initializeDatabase();
+  await db.delete('dogsa', where: 'id= ?', whereArgs: [id]);
+  print("Deletando dado");
+}
+
+//atualiza uma informação do banco de dados
+Future<void> updateDog(Dog dog) async{
+  final db= await _initializeDatabase();
+  await db.update('dogsa', dog.toMap(), where: 'id = ?', whereArgs: [dog.id]);
+  print("Dog atualizado com suceso");
 }
 
 class Home extends StatefulWidget {
