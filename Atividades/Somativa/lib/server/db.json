@@ -1,0 +1,39 @@
+{
+  "usuarios": [
+    {
+      "id": "5",
+      "nome": "Adriel",
+      "password": "1234"
+    },
+    {
+      "id": "2",
+      "nome": "André",
+      "password": "1234"
+    },
+    {
+      "id": "1",
+      "nome": "Fuzari",
+      "password": "1234"
+    },
+    {
+      "id": "8",
+      "nome": "Felipe",
+      "password": "1234 "
+    },
+    {
+      "id": "36b7",
+      "nome": "Kauab",
+      "password": "1234"
+    },
+    {
+      "id": "4a10",
+      "nome": "Daniel",
+      "password": "1234"
+    },
+    {
+      "id": "d079",
+      "nome": "Henricao",
+      "password": "1234"
+    }
+  ]
+}
